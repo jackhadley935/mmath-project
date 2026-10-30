@@ -62,3 +62,18 @@
 ### Effect on coming weeks:
 - Next week, I will continue to implement the FEM program, taking into account the feedback.
 - I will investigate dockers for utilising firedrake.
+
+- ## Week commencing – 26th October
+
+### Tasks for the week:
+1. Continue working on the prototype, implementing changes discussed last week
+
+### Actions taken towards tasks:
+1. Updated the function that I received feedback on last week, which now makes much more sense. I also derived the calculations of the Mass (`T`)and Stiffness (`S`)matrix entriesto suit an extendable approach, where the elements can be of variable length, and also corrected the values at the boundary.
+
+### Discussions during supervision meeting:
+- We discussed the changes made, and looked into a more general approach, using triangulations and linear interpolations, to better suit multiple dimensions. This could be a next step after implementing the one-dimensional prototype.
+
+### Effect on coming weeks:
+- Continue to work on the prototype
+- I will investigate dockers for utilising firedrake.
